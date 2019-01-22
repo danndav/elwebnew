@@ -1,0 +1,157 @@
+body{
+    font-size: 20px ;
+    line-height: 17px;
+    margin: 0;
+    padding:0;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    background: url("/assets/img/abstract-art-blue-616650@3x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+   
+  }
+  
+  @font-face {
+    font-family: "Avenir Next";
+    src: url("css/fonts/AvenirNextLTPro-Bold.otf");
+    src: url("css/fonts/AvenirNextLTPro-It.otf");
+    src: url("css/fonts/AvenirNextLTPro-Regular.otf");
+    src: 
+    url("css/fonts/Harabara.otf") format("opentype"),
+   
+    }
+   
+  /* global */
+  
+  p{
+    line-height: 40px;
+    color: #262626;
+    font-family:'Avenir Next';
+  }
+  
+  a {
+      text-decoration: none;
+      font-family:'Avenir Next';
+  }
+  
+  
+  /* header style */
+  .header-nav {
+       padding: 15px 10px;
+      -webkit-transition: all 0.2s ease;
+         -moz-transition: all 0.5s ease;
+              -o-transition: all 0.2s ease;
+                  transition: all 0.2s ease;
+  }
+  
+  
+  
+  .header-nav .navbar-nav > li {
+      margin: 0 0 0 20px;
+  }
+  .header-nav .navbar-nav .nav-link {
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .header-nav .navbar-nav .nav-link:after {
+      content: '';
+      position: absolute;
+      z-index: 10;
+      width: 0;
+      height: 2px;
+      background: #ccc;
+      -webkit-transition: ease all 0.2s;
+         -moz-transition: ease all 0.2s;
+           -o-transition: ease all 0.2s;
+              transition: ease all 0.2s;
+      
+  }
+  .header-nav .navbar-nav .nav-link:after {
+      bottom: 0;
+      left: 0;
+  }
+  .header-nav .navbar-nav .nav-link.active:after{
+      width: 100%;
+  }
+  
+  /*Navbar Toogle*/
+  .navbar-toggler {
+    border: none;
+    padding: 10px 6px;
+    outline: none !important;
+  }
+  .navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+  }
+  .navbar-toggler span + span {
+      margin-top: 4px;
+  }
+  
+  @media (max-width: 991px){
+    .navbar-nav {
+      padding-top: 5px;
+    }
+    .header-nav .navbar-nav > li {
+      margin: 8px 0;
+    }
+    .header-nav .navbar-nav .nav-link {
+      padding: 0;
+    }
+  }
+  
+  
+  header{
+    margin-bottom:100px;
+     padding-bottom:100px;
+  }
+  
+  /* change the background color */
+  .navbar {
+    background: #091F3C;
+    scroll-behavior: smooth;  
+    
+  }
+  .navbar {
+    text-decoration: none;
+  }
+  .nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+  }
+  
+    
+  
+    #showcase h1{
+        
+        color: #ffffff;
+        font-size: 55px;
+    }
+    
+    #showcase p{
+      color: #fff;
+      font-size: 25px;
+    }
+    
+    
+    #showcase{
+      margin-bottom:10px;
+      padding-bottom:10px;
+      background-image: url("/images/text.jpg");
+      background-size: cover;
+      
+    }
+
+    .marginleft{
+      border-left: 5px solid #fff;
+      height: -500px;
+    }
