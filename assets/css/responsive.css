@@ -499,14 +499,14 @@
       margin-top:50px;
       padding-top: 50px;
       
-      font-size:30px;
+      font-size:25px;
   }
   
   #showcase p{
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Anenir Next";
-    line-height: 20px;
+    line-height: 23px;
     
   }
   
@@ -514,6 +514,7 @@
     border-left: 2px solid #FF0000;
     height: -450px;
     margin-left:15px;
+    
   }
   
   i.fa {
