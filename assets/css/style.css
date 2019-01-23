@@ -58,7 +58,7 @@ body{
     top: 0;
     bottom: 0;
     height: 100vh;
-    z-index: -10;
+   
   }
   
   /* header style */
@@ -136,8 +136,8 @@ body{
   
   
   header{
-    margin-bottom:100px;
-     padding-bottom:100px;
+    margin-bottom:80px;
+     padding-bottom:80px;
   }
   
   /* change the background color */
@@ -177,6 +177,9 @@ body{
       padding-bottom:10px;
       background-image: url("/images/text.jpg");
       background-size: cover;
+      
+      z-index: -4;
+      opacity: 100 ;
       
     }
 
