@@ -23,20 +23,20 @@
        
         }
 
+        html{
+          background-image: url(../img/abstract-art-blue-616650@3x.jpg) no-repeat center center fixed;
+
+        }
+
 body{
-    font-size: 20px ;
+    font-size: 20px -18.5rem;
     line-height: 17px;
     margin: 0;
     padding:0;
-    /* font-family: 'Poppins', sans-serif ; */
-    
-    background-image: url(/assets/img/abstract-art-blue-616650@3x.jpg) important! ;
-    background-position: 0px -45px;
-    background-repeat: no-repeat;
-    background-size: cover;    
    
   }
   /* global */
+
   
   p{
     line-height: 40px;
@@ -50,6 +50,16 @@ body{
       font-family:'Anenir Next';
   }
   
+  .background{
+    background-image: url(../img/abstract-art-blue-616650@3x.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+  }
   
   /* header style */
   .header-nav {
