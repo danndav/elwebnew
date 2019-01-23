@@ -1,37 +1,53 @@
+
+  
+  @font-face {
+    font-family: "Anenir Next";
+  
+    src: url(fonts/AvenirNextLTPro-It.otf);
+    font-weight: italic
+   
+    }
+
+    @font-face {
+      font-family: "Anenir Next";
+    
+      src: url(fonts/AvenirNextLTPro-Regular.otf);
+     
+     
+      }
+
+      @font-face {
+        font-family: "Anenir Next";
+        src: url(fonts/AvenirNextLTPro-Bold.otf);
+        font-weight: bold;
+       
+        }
+
 body{
     font-size: 20px ;
     line-height: 17px;
     margin: 0;
     padding:0;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif ; */
     
-    background: url("/assets/img/abstract-art-blue-616650@3x.jpg");
+    background-image: url(/assets/img/abstract-art-blue-616650@3x.jpg) important! ;
+    background-position: 0px -45px;
     background-repeat: no-repeat;
     background-size: cover;    
    
   }
-  
-  @font-face {
-    font-family: "Avenir Next";
-    src: url("css/fonts/AvenirNextLTPro-Bold.otf");
-    src: url("css/fonts/AvenirNextLTPro-It.otf");
-    src: url("css/fonts/AvenirNextLTPro-Regular.otf");
-    src: 
-    url("css/fonts/Harabara.otf") format("opentype"),
-   
-    }
-   
   /* global */
   
   p{
     line-height: 40px;
     color: #262626;
-    font-family:'Avenir Next';
+    font-family:'Anenir Next';
+    font-size: 20px;
   }
   
   a {
       text-decoration: none;
-      font-family:'Avenir Next';
+      font-family:'Anenir Next';
   }
   
   
@@ -134,13 +150,15 @@ body{
     #showcase h1{
         
         color: #ffffff;
-        font-size: 55px;
-        
+        font-size: 50px;
+        font-family:'Anenir Next';
+        font-weight: bold;
     }
     
     #showcase p{
       color: #fff;
-      font-size: 25px;
+      font-size: 22px;
+      font-family: "Anenir Next";
     }
     
     
@@ -152,7 +170,7 @@ body{
       
     }
 
-    .marginleft{
+    .borderleft{
       border-left: 2px solid #FF0000;
       height: -500px;
     }
@@ -165,6 +183,7 @@ body{
       
       padding: 0.1em 0.1em;
       margin: 7px;
+      margin-left: 20px;
     }
     
      i.fa-facebook:hover{
