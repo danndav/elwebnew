@@ -23,10 +23,10 @@
        
         }
 
-        html{
+        /* html{
           background-image: url(../img/abstract-art-blue-616650@3x.jpg) no-repeat center center fixed;
 
-        }
+        } */
 
 body{
     font-size: 20px -18.5rem;
@@ -39,7 +39,7 @@ body{
 
   
   p{
-    line-height: 40px;
+    line-height: 35px;
     color: #262626;
     font-family:'Anenir Next';
     font-size: 20px;
@@ -51,7 +51,7 @@ body{
   }
   
   .background{
-    background-image: url(../img/abstract-art-blue-616650@3x.jpg);
+    /* background-image: url(../img/abstract-art-blue-616650@3x.jpg); */
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -136,8 +136,8 @@ body{
   
   
   header{
-    margin-bottom:80px;
-     padding-bottom:80px;
+    margin-bottom:60px;
+     padding-bottom:60px;
   }
   
   /* change the background color */
@@ -157,17 +157,43 @@ body{
   
     
   
-    #showcase h1{
+  #showcase h1{
         
-        color: #ffffff;
-        font-size: 50px;
-        font-family: 'Poppins', sans-serif;
+        color:  #000;
+        font-size: 48px;
+        font-family: 'Merriweather', serif;
         font-weight: bold;
-    }
+        position: relative;
+    
+      
+  }
+  
+  #showcase h1 span {
+      
+      padding-right: 5px;
+      padding-top: 5px;
+      z-index: -4;
+      
+  }
+  
+  #showcase h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 190px;
+    right: 50px;
+    height: 0.5em;
+    border-top: 2px solid red;
+    z-index: 1;
+}
+
+    
+    
+    
     
     #showcase p{
-      color: #fff;
-      font-size: 22px;
+      color:  #000;;
+      font-size: 21px;
       font-family: "Anenir Next";
     }
     
@@ -182,21 +208,19 @@ body{
       opacity: 100 ;
       
     }
-
-    .borderleft{
-      border-left: 2px solid #FF0000;
-      height: -500px;
+    
+    .spacer{
+      margin-top: 50px;
     }
+
+    
 
      i.fa {
       font-size: 24px;
-      color: #fff;
-      
+      color:  #4267b2;
       border-radius: 60px;
+      margin: 10px;
       
-      padding: 0.1em 0.1em;
-      margin: 7px;
-      margin-left: 20px;
     }
     
      i.fa-facebook:hover{
