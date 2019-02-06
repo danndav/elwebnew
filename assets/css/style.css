@@ -82,7 +82,7 @@ body{
     font-size: 14px;
     vertical-align: top;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 300;
   }
   .header-nav .navbar-nav .nav-link:after {
       content: '';
