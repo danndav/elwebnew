@@ -43,19 +43,17 @@
   
   }
   .spacer{
-    margin-top: -20px;
+    margin-top: 10px;
   }
   
   
   i.fa {
   font-size: 20px;
   color: #000000;
-  
   border-radius: 60px;
-  
-  padding: 0.1em 0.1em;
+  padding: -3.9em 39.1em;
   margin: 7px;
-  margin-left: 20px;
+  margin-left: 3px;
   }
   
   i.fa-facebook:hover{

@@ -247,11 +247,15 @@ z-index: 1;
     
 
      i.fa {
+       position:relative;
       font-size: 24px;
       color:  #4267b2;
       border-radius: 60px;
-      margin: 10px;
-      
+      margin: 3px;
+      left:50;
+      right:50;
+      padding-right:20px
+
     }
     
      i.fa-facebook:hover{
