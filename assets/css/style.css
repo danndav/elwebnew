@@ -82,26 +82,9 @@ body{
     color: #ffffff;
     font-weight: 300;
   }
-  .header-nav .navbar-nav .nav-link:after {
-      content: '';
-      position: absolute;
-      z-index: 10;
-      width: 0;
-      height: 2px;
-      background: #ccc;
-      -webkit-transition: ease all 0.2s;
-         -moz-transition: ease all 0.2s;
-           -o-transition: ease all 0.2s;
-              transition: ease all 0.2s;
-      
-  }
-  .header-nav .navbar-nav .nav-link:after {
-      bottom: 0;
-      left: 0;
-  }
-  .header-nav .navbar-nav .nav-link.active:after{
-      width: 100%;
-  }
+  
+  
+  
   
   /*Navbar Toogle*/
   .navbar-toggler {

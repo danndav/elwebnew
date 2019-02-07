@@ -36,11 +36,10 @@
   
   #showcase p{
     padding-top: 10px;
-  color: #000000;
-  font-size: 15px;
-  font-family: "Anenir Next";
-  line-height: 23px;
-  
+    color: #000000;
+    font-size: 15px;
+    font-family: "Anenir Next";
+    line-height: 21px;
   }
   .spacer{
     margin-top: 10px;
