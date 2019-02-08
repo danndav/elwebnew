@@ -273,7 +273,7 @@ li.dropdown:hover > .dropdown-menu {
 
     .contact{
       margin-top:10px;
-      margin-left:-35px;
+      margin-left:-45px;
 
 
     }
@@ -282,6 +282,9 @@ li.dropdown:hover > .dropdown-menu {
       font-family:'Anenir Next';
       color: #707070;
       font-size: 13px;
+    }
+    .space{
+      padding: 5px;
     }
     #position{
       border-left: 1px solid #707070;
