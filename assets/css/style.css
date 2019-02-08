@@ -22,10 +22,7 @@
        
         }
 
-        /* html{
-          background-image: url(../img/abstract-art-blue-616650@3x.jpg) no-repeat center center fixed;
-        } */
-
+       
 body{
     font-size: 20px -18.5rem;
     line-height: 17px;
@@ -95,11 +92,7 @@ body{
     padding: 10px;
   }
   
-  
- 
 
-
-  
   /*Navbar Toogle*/
   .navbar-toggler {
     border: none;
@@ -139,7 +132,34 @@ body{
     
     
   }
+
   
+li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+  
+  
+  header{
+    margin-bottom:50px;
+     padding-bottom:50px;
+  }
+  
+  /* change the background color */
+  .navbar {
+    background: #091F3C;
+    scroll-behavior: smooth;  
+    
+  }
+  .navbar {
+    text-decoration: none;
+  }
+  .nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+  }
+  
+    
   @media (min-height: 720px) and (min-width: 1000px) {
     #showcase h1{
         
@@ -168,36 +188,10 @@ right: 50px;
 height: 0.5em;
 border-top: 2px solid red;
 z-index: 1;
+display: block;
 }
 
 }
-  
-li.dropdown:hover > .dropdown-menu {
-  display: block;
-}
-  
-  
-  header{
-    margin-bottom:50px;
-     padding-bottom:50px;
-  }
-  
-  /* change the background color */
-  .navbar {
-    background: #091F3C;
-    scroll-behavior: smooth;  
-    
-  }
-  .navbar {
-    text-decoration: none;
-  }
-  .nav-link{
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: 10px 15px;
-  }
-  
-    
   
   #showcase h1{
         
@@ -221,12 +215,13 @@ li.dropdown:hover > .dropdown-menu {
   #showcase h1:after {
     content: "";
     position: absolute;
-    bottom: 0;
-    left: 190px;
+    bottom: 10;
+    left: 5px;
     right: 50px;
     height: 0.5em;
     border-top: 2px solid red;
     z-index: 1;
+    display:block;
 }
 
     
@@ -295,5 +290,6 @@ li.dropdown:hover > .dropdown-menu {
       border-left: 1px solid #707070;
       height: 50px;
       margin: 40px;
-      padding:1px
+      padding:1px;
+      opacity: 0.10;
      }
