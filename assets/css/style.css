@@ -34,7 +34,10 @@ body{
    
   }
   /* global */
-
+  ol,
+  ul {
+    list-style: none;
+  }
   
   p{
     line-height: 35px;
@@ -82,9 +85,15 @@ body{
     color: #ffffff;
     font-weight: 300;
   }
+
+  .dropdown-menu a{
+    border:1px solid #091F3C;
+    padding: 12px 16px;
+  }
   
-  
-  
+ 
+
+
   
   /*Navbar Toogle*/
   .navbar-toggler {
@@ -113,6 +122,17 @@ body{
     .header-nav .navbar-nav .nav-link {
       padding: 0;
     }
+    .dropdown>li{
+      background:#D9534F;
+      border-bottom:1px solid #791C1A;
+      border-top:2px solid #791C1A;
+      border-right:2px solid #791C1A; 
+      }
+  .dropdown>li>a:hover{
+      background:#D9534F; 
+      }
+    
+    
   }
   
   @media (min-height: 720px) and (min-width: 1000px) {
@@ -147,6 +167,9 @@ z-index: 1;
 
 }
   
+li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
   
   
   header{
@@ -231,26 +254,35 @@ z-index: 1;
 
      i.fa {
        position:relative;
-      font-size: 24px;
-      color:  #4267b2;
+      font-size: 15px;
+      color:  #091F3C;
       border-radius: 60px;
-      margin: 3px;
+      margin: 2px;
       left:50;
       right:50;
-      padding-right:20px
+      padding-right:8px
 
     }
     
-     i.fa-facebook:hover{
-    background-color: #4267b2;
+     i.fa:hover{
+    color: #4267b2;
+    padding: 1px;
     
     } 
-     i.fa-twitter:hover{
-      background-color: #38A1F3;
-    } 
-     i.fa-linkedin:hover{
-      background-color: #fff
-    } 
-     i.fa-google-plus:hover{
-      background-color: #DD4B39;
-    } 
+   
+
+    .contact{
+      margin-top:10px;
+      margin-left:-35px;
+
+
+    }
+    .contact li{
+      padding:5px;
+      font-family: "Segoe UI";
+      color: #707070;
+      font-size: 13px;
+    }
+    #position{
+      padding: 20px;
+    }
