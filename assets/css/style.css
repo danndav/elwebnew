@@ -284,5 +284,8 @@ li.dropdown:hover > .dropdown-menu {
       font-size: 13px;
     }
     #position{
-      padding: 20px;
-    }
+      border-left: 1px solid #707070;
+      height: 50px;
+      margin: 40px;
+      padding:1px
+     }
