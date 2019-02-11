@@ -168,7 +168,7 @@ li.dropdown:hover > .dropdown-menu {
     #showcase h2{
         
       color:  #000;
-      font-size: 3em;
+      font-size: 48px;
       text-rendering: optimizeLegibility;
       font-family: 'Merriweather', serif;
       font-weight: bold;
@@ -202,7 +202,7 @@ li.dropdown:hover > .dropdown-menu {
   
   #showcase h2{
         color:  #000;
-        font-size: 3em;
+        font-size: 48px;
         text-rendering: optimizeLegibility;
         font-family: 'Merriweather', serif;
         font-weight: bold;
@@ -467,7 +467,7 @@ li.dropdown:hover > .dropdown-menu {
            
          color:  #000;
          text-rendering: optimizeLegibility;
-         font-size: 3em;
+         font-size: 48px;
          font-family: 'Merriweather', serif;
          font-weight: bold;
          position: relative;
@@ -476,7 +476,7 @@ li.dropdown:hover > .dropdown-menu {
    }
    #showcase h2 span {
     text-rendering: optimizeLegibility;
-         font-size: 3em;
+         font-size: 48px;
      padding-right: 5px;
      padding-top: 5px;
      z-index: -4;
@@ -501,7 +501,7 @@ li.dropdown:hover > .dropdown-menu {
      #showcase h2{
            color:  #000;
            text-rendering: optimizeLegibility;
-           font-size: 3em;
+           font-size: 48px;
            font-family: 'Merriweather', serif;
            font-weight: bold;
            position: relative;
