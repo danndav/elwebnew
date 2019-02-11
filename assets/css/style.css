@@ -455,7 +455,7 @@ body{
      }
      
        
-     @media (min-height: 702px) and (max-width: 1005px) {
+     @media (min-height: 720px) and (max-width: 1000px) {
        #showcase h2{
            
          color:  #000;
