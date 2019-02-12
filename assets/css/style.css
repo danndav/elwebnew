@@ -487,11 +487,10 @@ body{
      }
      
      #showcase h2 span {
-         
          padding-right: 5px;
          padding-top: 5px;
          z-index: -4;
-         
+         font-size: 42.9px;
      }
      
      #showcase h2:after {
@@ -578,3 +577,9 @@ body{
         hr{
           margin:0;
         }
+
+@media only screen and (max-width: 100px) {
+  h2 {
+    font-size: 45px;
+  }
+}
