@@ -2,8 +2,8 @@
 
 
   header{
-    margin-bottom:50px;
-    padding-bottom: 50px;
+    margin-bottom:30px;
+    padding-bottom: 30px;
   }
   
   #showcase h2{
@@ -14,11 +14,10 @@
   }
   
   #showcase h2 span {
-        
-    padding-right: 5px;
-    padding-top: 5px;
-    z-index: -4;
-    
+        padding-right: 5px;
+        padding-top: 5px;
+        z-index: -4;
+        font-size: 38px;
   }
   
   #showcase h2:after {
@@ -41,9 +40,7 @@
     font-family: "Anenir Next";
     line-height: 21px;
   }
-  .spacer{
-    margin-top: 10px;
-  }
+
   
   
   i.fa {
@@ -88,11 +85,10 @@
   }
   
   #showcase h2 span {
-    
     padding-right: 5px;
     padding-top: 5px;
     z-index: -4;
-    
+    font-size: 31px;
   }
   
   #showcase h2:after {
