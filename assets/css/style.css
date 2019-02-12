@@ -67,6 +67,7 @@ a {
 
 .dropdown-menu a {
   padding: 10px;
+  
 }
 
 .dropdown-menu a:nth-child(3) {
@@ -108,20 +109,14 @@ a {
     background-color: #0bb5ff;
     opacity: 0.6;
   }
-
-  .dropdown > li {
-      background: #D9534F;
-      border-bottom: 1px solid #791C1A;
-      border-top: 2px solid #791C1A;
-      border-right: 2px solid #791C1A;
+  li.dropdown:hover > .dropdown-menu {
+    display: block;
   }
-  .dropdown > li > a:hover {
-      background: #D9534F;
-  }
+  
 }
 
 li.dropdown:hover > .dropdown-menu {
-  display: block;
+  display: inline;
 }
 
 header {
