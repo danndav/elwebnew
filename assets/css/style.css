@@ -3,7 +3,7 @@
     font-family: "Anenir Next";
   
     src: url(fonts/AvenirNextLTPro-It.otf);
-    font-weight: italic
+    font-weight: italic;
    
     }
 
@@ -31,6 +31,7 @@ body{
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 100%;
   }
   /* global */
   ol,
@@ -51,20 +52,10 @@ body{
       font-family:'Anenir Next';
   }
   
-  .background{
-    /* background-image: url(../img/abstract-art-blue-616650@3x.jpg); */
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-   
-  }
   
   /* header style */
   .header-nav {border-bottom:1px solid  #d3d3d3;
-       padding: 10px 10px;
+         padding: 15px 10px;
       -webkit-transition: all 0.2s ease;
          -moz-transition: all 0.5s ease;
               -o-transition: all 0.2s ease;
@@ -144,7 +135,6 @@ body{
   .navbar {
     background: #091F3C;
     scroll-behavior: smooth;  
-    height:55px;
     
   }
   .navbar {
@@ -342,40 +332,34 @@ body{
          font-family:'Anenir Next';
      }
      
-     .background{
-       /* background-image: url(../img/abstract-art-blue-616650@3x.jpg); */
-       background-size: cover;
-       background-position: center center;
-       position: relative;
-       top: 0;
-       bottom: 0;
-       height: 100vh;
-      
-     }
-     
+    
      /* header style */
-     .header-nav {
-          padding: 10px 10px;
-         -webkit-transition: all 0.2s ease;
-            -moz-transition: all 0.5s ease;
-                 -o-transition: all 0.2s ease;
-                     transition: all 0.2s ease;
-     }
+  .header-nav {
+    padding: 8px 10px;
+   -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.5s ease;
+           -o-transition: all 0.2s ease;
+               transition: all 0.2s ease;
+}
+
+
+
+.header-nav .navbar-nav > li {
+   margin: 0 0 0 20px;
+}
+.header-nav .navbar-nav .nav-link {
+ position: relative;
+ padding: 5px 20px;
+ display: inline-block;
+ font-size: 14px;
+ vertical-align: top;
+ color: #ffffff;
+ font-weight: 300;
+}
+     /* header style */
+  
      
-     
-     
-     .header-nav .navbar-nav > li {
-         margin: 0 0 0 20px;
-     }
-     .header-nav .navbar-nav .nav-link {
-       position: relative;
-       padding: 5px 20px;
-       display: inline-block;
-       font-size: 14px;
-       vertical-align: top;
-       color: #ffffff;
-       font-weight: 300;
-     }
+
    
      .dropdown-menu a{
        
@@ -403,7 +387,9 @@ body{
      .navbar-toggler span + span {
          margin-top: 4px;
      }
-     
+       /*Navbar Toogle*/
+
+  
      @media (max-width: 991px){
        .navbar-nav {
          padding-top: 5px;
@@ -442,7 +428,7 @@ body{
      .navbar {
        background: #091F3C;
        scroll-behavior: smooth;  
-       height:55px;
+     
        
      }
      .navbar {
@@ -460,7 +446,7 @@ body{
            
          color:  #000;
          text-rendering: optimizeLegibility;
-         font-size: 48px;
+         font-size: 247%;
          font-family: 'Merriweather', serif;
          font-weight: bold;
          position: relative;
