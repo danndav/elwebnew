@@ -116,7 +116,7 @@ a {
 }
 
 li.dropdown:hover > .dropdown-menu {
-  display: inline;
+  display: block;
 }
 
 header {
