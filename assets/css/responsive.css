@@ -57,7 +57,7 @@
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
   #showcase h2 {
       color: #000;
       font-size: 40px;
@@ -74,9 +74,9 @@
   #showcase h2:after {
       content: "";
       position: absolute;
-      bottom: 0;
-      left: 165px;
-      right: 0;
+      bottom: 0px;
+      left: 154px;
+      right: 35px;
       height: 0.5em;
       border-top: 2px solid red;
       z-index: 1;
