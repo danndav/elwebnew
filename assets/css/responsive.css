@@ -60,6 +60,39 @@
   }
 }
 
+@media only screen and (max-device-width: 340px) {
+  header {
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+  }
+  .spacer {
+  padding: 0px 7px 2px 25px;
+}
+ #showcase h2 {
+  color: #000;
+  text-rendering: optimizeLegibility;
+  font-size: 24px !important;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+#showcase h2 {
+  overflow: hidden;
+}
+
+#showcase h2:after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 60%;
+  margin-right: -100%;
+  margin-left: -50px;
+  border-top: 2px solid red;
+}
+
+}
+
 @media (max-width: 2000px) {
   #showcase h2 {
       color: #000;
