@@ -4,23 +4,22 @@
         padding-bottom: 30px;
     }
     .spacer {
-    padding: 0px 7px 2px 25px;
-  }
-  #showcase h2 br{
-    display:none;
-  }
-   #showcase h2 {
-    color: #000;
-    text-rendering: optimizeLegibility;
-    font-size: 30px !important;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-  }
-  
-  #showcase h2 {
-    overflow: hidden;
-  }
-  #showcase h2:after {
+        padding: 0px 7px 2px 25px;
+    }
+    #showcase h2 br {
+        display: none;
+    }
+    #showcase h2 {
+        color: #000;
+        text-rendering: optimizeLegibility;
+        font-size: 30px !important;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+    }
+    #showcase h2 {
+        overflow: hidden;
+    }
+    #showcase h2:after {
         content: "";
         position: absolute;
         bottom: -12px!important;
@@ -30,17 +29,16 @@
         border-top: 2px solid red;
         z-index: 1;
     }
-   
-  #showcase h2:after {
-    content: "";
-    display: inline-block;
-    height: 0.5em;
-    vertical-align: bottom;
-    width: 100%;
-    margin-right: -100%;
-    margin-left: -160px;
-    border-top: 2px solid red;
-  }
+    #showcase h2:after {
+        content: "";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 94%;
+        margin-right: -100%;
+        margin-left: -160px;
+        border-top: 2px solid red;
+    }
     #showcase p {
         padding-top: 10px;
         color: #000000;
@@ -71,43 +69,37 @@
     .img {
         display: none;
     }
-  }
-  
-  @media only screen and (max-device-width: 340px) {
+}
+@media only screen and (max-device-width: 340px) {
     header {
         margin-bottom: 30px;
         padding-bottom: 30px;
     }
     .spacer {
-    padding: 0px 7px 2px 25px;
-  }
-  
-   #showcase h2 {
-    color: #000;
-    text-rendering: optimizeLegibility;
-    font-size: 24px !important;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-  }
-  
-  #showcase h2 {
-    overflow: hidden;
-  }
-  
-  #showcase h2:after {
-    content: "";
-    display: inline-block;
-    height: 0.5em;
-    vertical-align: bottom;
-    width: 60%;
-    margin-right: -100%;
-    margin-left: -50px;
-    border-top: 2px solid red;
-  }
-  
-  
+        padding: 0px 7px 2px 25px;
+    }
+    #showcase h2 {
+        color: #000;
+        text-rendering: optimizeLegibility;
+        font-size: 24px !important;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+    }
+    #showcase h2 {
+        overflow: hidden;
+    }
+    #showcase h2:after {
+        content: "";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 60%;
+        margin-right: -100%;
+        margin-left: -50px;
+        border-top: 2px solid red;
+    }
 }
-  @media (max-width: 2000px) {
+@media (max-width: 2000px) {
     #showcase h2 {
         color: #000;
         font-size: 40px;
@@ -131,9 +123,8 @@
         border-top: 2px solid red;
         z-index: 1;
     }
-  }
-  
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     /* Styles */
     #showcase h2 {
         color: #000;
@@ -158,9 +149,8 @@
         border-top: 2px solid red;
         z-index: 1;
     }
-  }
-  
-  @media only screen and (max-device-width: 740px) and (min-device-width: 1000px) and (orientation: portrait) {
+}
+@media only screen and (max-device-width: 740px) and (min-device-width: 1000px) and (orientation: portrait) {
     /* Styles */
     #showcase h2 {
         color: #000;
@@ -184,4 +174,4 @@
         border-top: 2px solid red;
         z-index: 1;
     }
-  }
+}
