@@ -1,174 +1,187 @@
 @media only screen and (max-device-width: 599px) {
-  header {
-      margin-bottom: 30px;
-      padding-bottom: 30px;
+    header {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .spacer {
+    padding: 0px 7px 2px 25px;
   }
-  .spacer {
-  padding: 0px 7px 2px 25px;
-}
- #showcase h2 {
-  color: #000;
-  text-rendering: optimizeLegibility;
-  font-size: 25px !important;
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
-}
-
-#showcase h2 {
-  overflow: hidden;
-}
-
-#showcase h2:after {
-  content: "";
-  display: inline-block;
-  height: 0.5em;
-  vertical-align: bottom;
-  width: 60%;
-  margin-right: -100%;
-  margin-left: -50px;
-  border-top: 2px solid red;
-}
-  #showcase p {
-      padding-top: 10px;
-      color: #000000;
-      font-size: 15px;
-      font-family: "Anenir Next";
-      line-height: 21px;
+  #showcase h2 br{
+    display:none;
   }
-  i.fa {
-      font-size: 20px;
-      color: #000000;
-      border-radius: 60px;
-      padding: -3.9em 39.1em;
-      margin: px;
-      margin-left: 3px;
+   #showcase h2 {
+    color: #000;
+    text-rendering: optimizeLegibility;
+    font-size: 35px !important;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
   }
-  i.fa-facebook:hover {
-      background-color: #4267b2;
-  }
-  i.fa-twitter:hover {
-      background-color: #38A1F3;
-  }
-  i.fa-linkedin:hover {
-      background-color: #000000
-  }
-  i.fa-google-plus:hover {
-      background-color: #DD4B39;
-  }
-  .img {
-      display: none;
-  }
-}
-
-@media only screen and (max-device-width: 340px) {
-  header {
-      margin-bottom: 30px;
-      padding-bottom: 30px;
-  }
-  .spacer {
-  padding: 0px 7px 2px 25px;
-}
- #showcase h2 {
-  color: #000;
-  text-rendering: optimizeLegibility;
-  font-size: 24px !important;
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
-}
-
-#showcase h2 {
-  overflow: hidden;
-}
-
-#showcase h2:after {
-  content: "";
-  display: inline-block;
-  height: 0.5em;
-  vertical-align: bottom;
-  width: 60%;
-  margin-right: -100%;
-  margin-left: -50px;
-  border-top: 2px solid red;
-}
-
-}
-
-@media (max-width: 2000px) {
+  
   #showcase h2 {
-      color: #000;
-      font-size: 40px;
-      font-family: 'Merriweather', serif;
-      font-weight: bold;
-      position: relative;
-  }
-  #showcase h2 span {
-      padding-right: 5px;
-      padding-top: 5px;
-      z-index: -4;
-      font-size: 31px;
+    overflow: hidden;
   }
   #showcase h2:after {
-      content: "";
-      position: absolute;
-      bottom: 0px;
-      left: 164px;
-      right: 18px;
-      height: 0.5em;
-      border-top: 2px solid red;
-      z-index: 1;
-  }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */
-  #showcase h2 {
-      color: #000;
-      font-size: 31px;
-      font-family: 'Merriweather', serif;
-      font-weight: bold;
-      position: relative;
-  }
-  #showcase h2 span {
-      padding-right: 5px;
-      padding-top: 5px;
-      z-index: -4;
-      font-size: 31px;
-  }
+        content: "";
+        position: absolute;
+        bottom: -15px!important;
+        left: 150px;
+        right: 50px;
+        height: 0.5em;
+        border-top: 2px solid red;
+        z-index: 1;
+    }
+   
   #showcase h2:after {
-    
     content: "";
-      position: absolute;
-      bottom: 0;
-      left: 150px;
-      right: 50px;
-      height: 0.5em;
-      border-top: 2px solid red;
-      z-index: 1;
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: -160px;
+    border-top: 2px solid red;
   }
-}
-
-@media only screen and (max-device-width: 740px) and (min-device-width: 1000px) and (orientation: portrait) {
-  /* Styles */
+    #showcase p {
+        padding-top: 10px;
+        color: #000000;
+        font-size: 15px;
+        font-family: "Anenir Next";
+        line-height: 21px;
+    }
+    i.fa {
+        font-size: 20px;
+        color: #000000;
+        border-radius: 60px;
+        padding: -3.9em 39.1em;
+        margin: px;
+        margin-left: 3px;
+    }
+    i.fa-facebook:hover {
+        background-color: #4267b2;
+    }
+    i.fa-twitter:hover {
+        background-color: #38A1F3;
+    }
+    i.fa-linkedin:hover {
+        background-color: #000000
+    }
+    i.fa-google-plus:hover {
+        background-color: #DD4B39;
+    }
+    .img {
+        display: none;
+    }
+  }
+  
+  @media only screen and (max-device-width: 340px) {
+    header {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .spacer {
+    padding: 0px 7px 2px 25px;
+  }
+  
+   #showcase h2 {
+    color: #000;
+    text-rendering: optimizeLegibility;
+    font-size: 24px !important;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+  }
+  
   #showcase h2 {
-      color: #000;
-      font-size: 31px;
-      font-family: 'Merriweather', serif;
-      font-weight: bold;
-      position: relative;
+    overflow: hidden;
   }
-  #showcase h2 span {
-      padding-right: 5px;
-      padding-top: 5px;
-      z-index: -4;
-  }
+  
   #showcase h2:after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 150px;
-      right: 50px;
-      height: 0.5em;
-      border-top: 2px solid red;
-      z-index: 1;
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 60%;
+    margin-right: -100%;
+    margin-left: -50px;
+    border-top: 2px solid red;
   }
+  
+  
 }
+  @media (max-width: 2000px) {
+    #showcase h2 {
+        color: #000;
+        font-size: 40px;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        position: relative;
+    }
+    #showcase h2 span {
+        padding-right: 5px;
+        padding-top: 5px;
+        z-index: -4;
+        font-size: 31px;
+    }
+    #showcase h2:after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 164px;
+        right: 18px;
+        height: 0.5em;
+        border-top: 2px solid red;
+        z-index: 1;
+    }
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+    #showcase h2 {
+        color: #000;
+        font-size: 31px;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        position: relative;
+    }
+    #showcase h2 span {
+        padding-right: 5px;
+        padding-top: 5px;
+        z-index: -4;
+        font-size: 31px;
+    }
+    #showcase h2:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 150px;
+        right: 50px;
+        height: 0.5em;
+        border-top: 2px solid red;
+        z-index: 1;
+    }
+  }
+  
+  @media only screen and (max-device-width: 740px) and (min-device-width: 1000px) and (orientation: portrait) {
+    /* Styles */
+    #showcase h2 {
+        color: #000;
+        font-size: 31px;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        position: relative;
+    }
+    #showcase h2 span {
+        padding-right: 5px;
+        padding-top: 5px;
+        z-index: -4;
+    }
+    #showcase h2:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 150px;
+        right: 50px;
+        height: 0.5em;
+        border-top: 2px solid red;
+        z-index: 1;
+    }
+  }
