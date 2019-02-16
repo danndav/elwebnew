@@ -14,6 +14,8 @@
   src: url(fonts/AvenirNextLTPro-Bold.otf);
   font-weight: bold;
 }
+
+
 /* global */
 
 ol,
@@ -21,7 +23,7 @@ ul {
   list-style: none;
 }
 
-*h2 {
+body *h2 {
   padding: 0;
   margin: 0;
 }
@@ -33,10 +35,16 @@ p {
   font-size: 20px;
 }
 
+body {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
   font-family: 'Anenir Next';
 }
+
+
 /* header style */
 
 .header-nav {
@@ -47,13 +55,15 @@ a {
   transition: all 0.2s ease;
 }
 
-.header-nav .navbar-nav > li {
+.header-nav .navbar-nav>li {
   margin: 0 0 0 20px;
 }
+
 .header-nav .navbar-nav .nav-link:hover {
   color: #0bb5ff;
   opacity: 0.6;
 }
+
 .header-nav .navbar-nav .nav-link {
   position: relative;
   padding: 5px 20px;
@@ -63,24 +73,28 @@ a {
   color: #ffffff;
   font-weight: 300;
 }
+
+
 /* header style */
 
 .dropdown-menu a:hover {
   padding: 10px;
   border-right: 1px solid #0bb5ff;
   border-left: 1px solid #0bb5ff;
-  
 }
+
 .dropdown-menu a {
   padding: 10px;
-  font-weight: 600;
-  
+  font-family: "Nunito Medium";
+  color: #091F3C;
 }
 
 .dropdown-menu a:nth-child(3) {
   border-bottom: none;
   padding: 10px;
 }
+
+
 /*Navbar Toogle*/
 
 .navbar-toggler {
@@ -97,33 +111,35 @@ a {
   background: #fff;
 }
 
-.navbar-toggler span + span {
+.navbar-toggler span+span {
   margin-top: 4px;
 }
+
+
 /*Navbar Toogle*/
 
 @media (max-width: 991px) {
   .navbar-nav {
       padding-top: 5px;
   }
-  .header-nav .navbar-nav > li {
+  .header-nav .navbar-nav>li {
       margin: 8px 0;
   }
   .header-nav .navbar-nav .nav-link {
       padding: 0;
   }
   .header-nav .navbar-nav .nav-link:hover {
-    color: #0bb5ff;
-    opacity: 0.6;
+      color: #0bb5ff;
+      opacity: 0.6;
   }
-
 }
-
 
 header {
   margin-bottom: 50px;
   padding-bottom: 50px;
 }
+
+
 /* change the background color */
 
 .navbar {
@@ -145,28 +161,22 @@ header {
   #showcase h2 {
       color: #000;
       text-rendering: optimizeLegibility;
-      font-size: 247%;
+      font-size: 48px;
       font-family: 'Merriweather', serif;
       font-weight: bold;
-      position: relative;
   }
-  #showcase h2 span {
-      text-rendering: optimizeLegibility;
-      font-size: 48px;
-      padding-right: 5px;
-      padding-top: 5px;
-      z-index: -4;
+  #showcase h2 {
+      overflow: hidden;
   }
   #showcase h2:after {
       content: "";
-      position: absolute;
-      bottom: 10;
-      left: 0px;
-      right: 50px;
+      display: inline-block;
       height: 0.5em;
+      vertical-align: bottom;
+      width: 61%;
+      margin-right: -100%;
+      margin-left: 10px;
       border-top: 2px solid red;
-      z-index: 1;
-      display: block;
   }
 }
 
@@ -176,32 +186,28 @@ header {
   font-size: 48px;
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  position: relative;
 }
 
-#showcase h2 span {
-  padding-right: 5px;
-  padding-top: 5px;
-  z-index: -4;
-  font-size: 42.9px;
+#showcase h2 {
+  overflow: hidden;
 }
 
 #showcase h2:after {
   content: "";
-  position: absolute;
-  bottom: 10;
-  left: 0%;
-  right: 7%;
+  display: inline-block;
   height: 0.5em;
+  vertical-align: bottom;
+  width: 50%;
+  margin-right: -100%;
+  margin-left: 10px;
   border-top: 2px solid red;
-  z-index: 1;
-  display: block;
 }
 
 #showcase p {
   color: #000;
   font-size: 19px;
   font-family: "Anenir Next";
+  max-width: 100%;
 }
 
 #showcase {
@@ -218,12 +224,10 @@ header {
   padding: 5px;
 }
 
-
 #spacenumber {
   margin-top: 27px;
   padding: 5px;
 }
-
 
 #spacecontact {
   margin-top: 27px;
@@ -243,12 +247,12 @@ i.fa {
 
 i.fa:hover {
   color: #4267b2;
-  
 }
 
 .contact {
   margin-top: 10px;
   margin-left: -45px;
+  padding-top: 20px
 }
 
 .contact li {
@@ -263,8 +267,8 @@ i.fa:hover {
   color: #707070;
 }
 
-.space {
-  padding: 5px;
+.spacer {
+  padding: 60px 7px 2px 25px;
 }
 
 #position {
